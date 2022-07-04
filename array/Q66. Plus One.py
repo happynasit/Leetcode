@@ -15,7 +15,7 @@ def plusOne(digits: List[int]) -> List[int]:
     for val in digits:
         integer_value = integer_value * 10 + val
         
-    final_value = integer_value + 1
-    final_str = str(final_value)
+    sum_value = integer_value + 1
+    final_str = str(sum_value)
     final_lst = [int(i) for i in final_str]
     return final_lst

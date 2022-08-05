@@ -1,4 +1,4 @@
-def myPow(self, x: float, n: int) -> float:
+def myPow(x: float, n: int) -> float:
     """
     Completed MEDIUM: 
     Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).

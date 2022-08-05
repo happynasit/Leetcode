@@ -1,4 +1,4 @@
-def majorityElement(nums: List[int]) -> int:
+def majorityElement(nums: list[int]) -> int:
     """
     Completed EASY:
     Given an array nums of size n, return the majority element.

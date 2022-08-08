@@ -15,8 +15,8 @@ class Solution:
             if res in list2:
                 restaurants[res] = list1.index(res) + list2.index(res)
         
-        lst = []
+        lst_res = []
         for restaurant in restaurants:
             if restaurants[restaurant] == min(restaurants.values()):
-                lst.append(restaurant)
-        return lst
+                lst_res.append(restaurant)
+        return lst_res

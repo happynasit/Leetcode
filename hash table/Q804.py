@@ -3,7 +3,7 @@ class Solution:
         """
         https://leetcode.com/problems/unique-morse-code-words/
 
-        Given an array of strings words where each word can be written as a concatenation of the Morse code of each letter.
+        Given an array of strings words where each word can be written as a concatenation of the Morse code.
         Return the number of different transformations among all words we have.
 
         """

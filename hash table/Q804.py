@@ -1,7 +1,7 @@
 class Solution:
     def uniqueMorseRepresentations(self, words: list[str]) -> int:
         """
-
+        https://leetcode.com/problems/unique-morse-code-words/
 
         Given an array of strings words where each word can be written as a concatenation of the Morse code of each letter.
         Return the number of different transformations among all words we have.

@@ -15,5 +15,8 @@ class Solution:
 
             for value in range(2, int(num ** 0.5) + 1):
                 if num % value == 0:
+                    # the value that is dividing num is being added 
+                    # the "other value" whose product with the value is also being added
+                    # because "other value" then also divides num
                     sum_ = sum_ + ((num//value) + value)
             return sum_ == num

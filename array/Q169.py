@@ -14,6 +14,6 @@ def majorityElement(nums: list[int]) -> int:
         if i not in new_lst:
             new_lst.append(i)
     
-    for value in new_lst:
-        if nums.count(value) > (len(nums) // 2):
-            return value
+    for val in new_lst:
+        if nums.count(val) > (len(nums) // 2):
+            return val

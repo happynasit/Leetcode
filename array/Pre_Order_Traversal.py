@@ -12,6 +12,6 @@ class Solution:
         l = []
         if root is not None:
 	    l.append(root.val)
-            l.extend(self.inorderTraversal(root.left))
-            l.extend(self.inorderTraversal(root.right))
+            l.extend(self.preorderTraversal(root.left))
+            l.extend(self.preorderTraversal(root.right))
         return l

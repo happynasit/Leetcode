@@ -16,8 +16,3 @@ class Solution:
             l.extend(self.postorderTraversal(root.right))
             l.append(root.val)
 
-        return l
-
-
-
-

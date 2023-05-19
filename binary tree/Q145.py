@@ -15,5 +15,14 @@ class Solution:
             l.extend(self.postorderTraversal(root.left))
             l.extend(self.postorderTraversal(root.right))
             l.append(root.val)
+<<<<<<< HEAD
         
         return l
+=======
+
+        return l
+
+
+
+
+>>>>>>> 2dffd4e7b818945c5ceab44c613d006c1a8079f9

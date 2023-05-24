@@ -1,8 +1,7 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         """
-        Given an array nums of distinct integers, return all the possible permutations. 
-        You can return the answer in any order.
+        Given an array nums of distinct integers, return all the possible permutations.
         """
         l = []
         if len(nums) == 1:

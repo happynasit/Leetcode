@@ -9,8 +9,7 @@ class Solution:
         self.head = None
         
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        """
-        """
+
         list_head = ListNode()
 
         while list1 is not None and list2 is not None:

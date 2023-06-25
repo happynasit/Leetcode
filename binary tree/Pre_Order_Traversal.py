@@ -1,7 +1,7 @@
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
+#         self.value = val
 #         self.left = left
 #         self.right = right
 class Solution:
@@ -11,7 +11,7 @@ class Solution:
         """
         l = []
         if root is not None:
-	    l.append(root.val)
+	    l.append(root.value)
             l.extend(self.preorderTraversal(root.left))
             l.extend(self.preorderTraversal(root.right))
         return l

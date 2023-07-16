@@ -4,11 +4,9 @@ class Solution:
       https://leetcode.com/problems/median-of-two-sorted-arrays/description/
       """
         l = []
-
         l.extend(nums1)
         l.extend(nums2)
         l.sort()
-
         if len(l) % 2 != 0:
             index = (len(l) // 2)
 

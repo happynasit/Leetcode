@@ -5,7 +5,8 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        
+        """
+        """
         # Converting the linked list into a number in reverse order.
         # l1
         s1 = ""
@@ -37,7 +38,7 @@ class Solution:
         """
         Inserts a node at the end of the linked list
         """
-        if self.
+        
     
 
     

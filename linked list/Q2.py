@@ -34,10 +34,23 @@ class Solution:
             
 
 
+    
     def insert_node(self, l:Optional[ListNode], a:int):
         """
         Inserts a node at the end of the linked list
         """
+        new_node = ListNode(a)
+        
+        curr = l
+        new_node.next = None
+        if curr is None:
+            return new_node
+        
+        while curr.next is not None:
+            curr = curr.next
+        
+        curr.next = new_node
+        return l
         
     
 

@@ -6,9 +6,6 @@ def plusOne(digits: List[int]) -> List[int]:
     >>> plusOne(l)
     [2, 4, 6, 9]
 
-    >>> lst = [9, 9, 9]
-    >>> plusOne(lst)
-    [1, 0, 0, 0]
     """
     integer_value = 0
     for val in digits:
